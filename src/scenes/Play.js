@@ -23,6 +23,9 @@ class Play extends Phaser.Scene {
 
         // update instruction text
         document.getElementById('info').innerHTML = '<strong>CharacterFSM.js:</strong> Arrows: move | SPACE: attack | SHIFT: dash attack | F: spin attack | H: hurt (knockback) | D: debug (toggle)'
+    
+        // plays at start of scene
+        // this.hero.anims.play('circular-attack')
     }
 
     update() {
